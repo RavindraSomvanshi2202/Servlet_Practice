@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+    <form action="${pageContext.request.contextPath}/Form" method="post"> <!-- Correct context path -->
+        <input type="text" name="Username" /> <br><br>
+        <input type="password" name="Password" /> <br><br> <!-- Changed to type="password" for security -->
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
